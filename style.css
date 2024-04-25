@@ -202,3 +202,116 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color:royalblue ;
 }
+
+@media only screen and (max-width:550px){
+
+    .loginDiv{
+        background-color: white;
+        width: 90%;
+        min-height: 30rem;
+        flex-direction: column;
+    }
+    form{
+       width: 100%;
+       min-height: 30rem;
+        padding: 1.5rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    form .sign{
+        margin-top: .4rem;
+        margin-bottom: 1.7rem;
+        font-size: 1rem; 
+        letter-spacing: .1rem;
+        word-spacing: .1rem;
+    }
+    form .sign a{
+        font-family: "Rubik",sans-serif;
+        margin-left: .1rem;
+        font-size: 1.2rem;
+    }
+    .pemail{
+        font-family: "Rubik",sans-serif;
+        font-size: 1.2rem;
+    }
+    input[type=email]{
+        width: 100%;
+        padding: .8rem;
+        border-radius: .4rem;
+        outline: none;
+        font-family: "Rubik", sans-serif;
+        font-size: 1rem;
+        border: .1rem solid gray;
+    }
+    input[type=password]{
+        width: 100%;
+        padding: .8rem;
+        border-radius: .4rem;
+        outline: none;
+        font-family: "Rubik", sans-serif;
+        font-size: 1rem;
+        margin: 0rem 0rem;
+        border: .1rem solid gray;
+ }
+ 
+
+.remem{
+    width: 100%;
+    padding: .5rem 0rem;
+    display: flex;
+    align-items: center;
+    margin:.5rem 0rem;
+}
+.pass p a{
+    font-size: 1.3rem;
+}
+.pass p a{
+    font-size: 1rem;
+}
+.pass label{
+    font-size: 1rem;
+}
+label[for=remember]{
+font-size: 1.1rem;
+margin-left: .3rem;
+}
+.pemail{
+    font-family: "Rubik",sans-serif;
+    font-size: 1rem;
+}
+.img-section{
+    margin-top:3rem;
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.socialBtn{
+    width: 100%;
+    margin-top: .5rem;
+    padding: .5rem 0rem;
+    /* background-color: red; */
+  }
+.socialBtn .go{
+    width: 50%;
+    background-size: 1rem;
+    padding: .9rem 3.5rem;
+    font-size: 1.1rem;
+    font-weight: 600; 
+    color: #e73f19;
+    
+}
+.socialBtn .face{
+    background-size: 1rem;
+    background-position: 1.3rem;
+    border-radius:.5rem;
+    padding: .9rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 600; 
+    background-image: url('face.png');
+    color: royalblue;
+}    
+}
