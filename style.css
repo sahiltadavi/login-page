@@ -21,14 +21,11 @@ body{
     justify-content: center;
 }
 .loginDiv{
-    /* width: ; */
     background-color: white;
     width: 60%;
     min-height: 30rem;
     display: flex;
     justify-content: space-around;
-    /* background-color: red; */
-    border: .1rem solid black;
     padding: 5rem 3rem;
 }
 form{
@@ -37,8 +34,6 @@ form{
    min-height: 30rem;
    box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.5);
    border-radius: .5rem;
-    /* flex-direction: column; */
-    /* background-color: red; */
     padding: 2rem;
 }
 h1{
@@ -89,7 +84,6 @@ input[type=password]
     border: .1rem solid gray;
 }
 .pass{
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     margin-bottom: .5rem;
